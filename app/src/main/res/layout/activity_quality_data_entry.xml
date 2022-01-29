@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QualityDataEntry"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/comfortaa"
+            android:gravity="center"
+            android:text="Data Entry"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <carbon.widget.LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <carbon.widget.TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/carbon_padding"
+                android:layout_weight="1"
+                android:background="#f2f2f2"
+                android:fontFamily="@font/comfortaa"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Barcode Value"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:carbon_cornerRadius="10dp"
+                app:carbon_elevation="4dp"
+                app:carbon_elevationShadowColor="#787878" />
+
+            <carbon.widget.EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/carbon_padding"
+                android:layout_weight="1"
+                android:background="@null"
+                android:backgroundTint="#f2f2f2"
+                android:fontFamily="@font/comfortaa"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="AxT123"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:carbon_cornerRadius="10dp"
+                app:carbon_elevation="4dp"
+                app:carbon_elevationShadowColor="#787878" />
+        </carbon.widget.LinearLayout>
+
+        <carbon.widget.LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <carbon.widget.TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/carbon_padding"
+                android:layout_weight="1"
+                android:background="#f2f2f2"
+                android:fontFamily="@font/comfortaa"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="WO_S1"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:carbon_cornerRadius="10dp"
+                app:carbon_elevation="4dp"
+                app:carbon_elevationShadowColor="#787878" />
+
+            <carbon.widget.EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/carbon_padding"
+                android:layout_weight="1"
+                android:background="@null"
+                android:backgroundTint="#f2f2f2"
+                android:fontFamily="@font/comfortaa"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="WO_S1"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:carbon_cornerRadius="10dp"
+                app:carbon_elevation="4dp"
+                app:carbon_elevationShadowColor="#787878" />
+        </carbon.widget.LinearLayout>
+
+        <carbon.widget.LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <carbon.widget.TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/carbon_padding"
+                android:layout_weight="1"
+                android:background="#f2f2f2"
+                android:fontFamily="@font/comfortaa"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="IL Number"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:carbon_cornerRadius="10dp"
+                app:carbon_elevation="4dp"
+                app:carbon_elevationShadowColor="#787878" />
+
+            <carbon.widget.EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/carbon_padding"
+                android:layout_weight="1"
+                android:background="@null"
+                android:backgroundTint="#f2f2f2"
+                android:fontFamily="@font/comfortaa"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="123"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:carbon_cornerRadius="10dp"
+                app:carbon_elevation="4dp"
+                app:carbon_elevationShadowColor="#787878" />
+        </carbon.widget.LinearLayout>
+
+        <carbon.widget.LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <carbon.widget.TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/carbon_padding"
+                android:layout_weight="1"
+                android:background="#f2f2f2"
+                android:fontFamily="@font/comfortaa"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Part ID"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:carbon_cornerRadius="10dp"
+                app:carbon_elevation="4dp"
+                app:carbon_elevationShadowColor="#787878" />
+
+            <carbon.widget.EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/carbon_padding"
+                android:layout_weight="1"
+                android:background="@null"
+                android:backgroundTint="#f2f2f2"
+                android:fontFamily="@font/comfortaa"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="1"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:carbon_cornerRadius="10dp"
+                app:carbon_elevation="4dp"
+                app:carbon_elevationShadowColor="#787878" />
+        </carbon.widget.LinearLayout>
+
+        <carbon.widget.LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <carbon.widget.TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/carbon_padding"
+                android:layout_weight="1"
+                android:background="#f2f2f2"
+                android:fontFamily="@font/comfortaa"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Pram 1"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:carbon_cornerRadius="10dp"
+                app:carbon_elevation="4dp"
+                app:carbon_elevationShadowColor="#787878" />
+
+            <carbon.widget.EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/carbon_padding"
+                android:layout_weight="1"
+                android:background="@null"
+                android:backgroundTint="#f2f2f2"
+                android:fontFamily="@font/comfortaa"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="100cm"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:carbon_cornerRadius="10dp"
+                app:carbon_elevation="4dp"
+                app:carbon_elevationShadowColor="#787878" />
+        </carbon.widget.LinearLayout>
+
+        <carbon.widget.LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <carbon.widget.TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/carbon_padding"
+                android:layout_weight="1"
+                android:background="#f2f2f2"
+                android:fontFamily="@font/comfortaa"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Parm 2"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:carbon_cornerRadius="10dp"
+                app:carbon_elevation="4dp"
+                app:carbon_elevationShadowColor="#787878" />
+
+            <carbon.widget.EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/carbon_padding"
+                android:layout_weight="1"
+                android:background="@null"
+                android:backgroundTint="#f2f2f2"
+                android:fontFamily="@font/comfortaa"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="40ml"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:carbon_cornerRadius="10dp"
+                app:carbon_elevation="4dp"
+                app:carbon_elevationShadowColor="#787878" />
+        </carbon.widget.LinearLayout>
+
+        <carbon.widget.LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <carbon.widget.TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/carbon_padding"
+                android:layout_weight="1"
+                android:background="#f2f2f2"
+                android:fontFamily="@font/comfortaa"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Parm 3"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:carbon_cornerRadius="10dp"
+                app:carbon_elevation="4dp"
+                app:carbon_elevationShadowColor="#787878" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/carbon_padding"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:scaleX="1.5"
+                    android:scaleY="1.5" />
+            </LinearLayout>
+        </carbon.widget.LinearLayout>
+
+        <carbon.widget.LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <carbon.widget.TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/carbon_padding"
+                android:layout_weight="1"
+                android:background="#f2f2f2"
+                android:fontFamily="@font/comfortaa"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Parm 3"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:carbon_cornerRadius="10dp"
+                app:carbon_elevation="4dp"
+                app:carbon_elevationShadowColor="#787878" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/carbon_padding"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:scaleX="1.5"
+                    android:scaleY="1.5" />
+            </LinearLayout>
+        </carbon.widget.LinearLayout>
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="130dp"
+            android:layout_height="55dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginEnd="30dp"
+            android:fontFamily="@font/comfortaa"
+            android:text="Submit"
+            android:textStyle="bold"
+            app:backgroundTint="#EA6D00"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+</ScrollView>

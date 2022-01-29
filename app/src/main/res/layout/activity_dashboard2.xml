@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard1"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/production_btn"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/comfortaa"
+        android:gravity="center"
+        android:text="PRODUCTION"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:backgroundTint="#EA6D00"
+        app:cornerRadius="20dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/quality_btn"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/comfortaa"
+        android:gravity="center"
+        android:text="QUALITY"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:backgroundTint="#5293FF"
+        app:cornerRadius="20dp" />
+
+
+</LinearLayout>
