@@ -8,27 +8,46 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
+import android.widget.TextView;
 
 public class SelectWorkorder extends AppCompatActivity {
 
     Spinner WorkOrderSpinner;
-    Button NavBtn;
+    Button NavBtn, ScanBtn;
+    TextView BarcodeValue;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_select_workorder);
 
         NavBtn = findViewById(R.id.workOrder_btn);
+        ScanBtn = findViewById(R.id.workOrder_scan_btn);
         WorkOrderSpinner = findViewById(R.id.workOrder_spinner);
+        BarcodeValue = findViewById(R.id.workOrder_barcodeValue_txt);
 
         //Spinner
-        Integer[] arr = {1,2,3,4,5};
+        Integer[] arr = {1, 2, 3, 4, 5};
         WorkOrderSpinner.setAdapter(new ArrayAdapter<>(SelectWorkorder.this, android.R.layout.simple_spinner_dropdown_item, arr));
 
-        //
+        //Scanning
+        ScanBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(SelectWorkorder.this, barcodeScanning.class);
+                startActivity(i);
+            }
+        });
+
+        //Get Intent(Barcode Value)
+        String barcodeVal = getIntent().getStringExtra("BarcodeValue");
+        BarcodeValue.setText(barcodeVal);
+
+        //Navigation
         NavBtn.setOnClickListener(view -> {
-            Intent i = new Intent(SelectWorkorder.this,QualityDataEntry.class);
+            Intent i = new Intent(SelectWorkorder.this, QualityDataEntry.class);
             startActivity(i);
         });
+
     }
 }

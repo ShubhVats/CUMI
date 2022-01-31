@@ -83,6 +83,7 @@
                 android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/workOrder_barcodeValue_txt"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -94,11 +95,23 @@
         </LinearLayout>
 
         <Button
-            android:id="@+id/workOrder_btn"
+            android:id="@+id/workOrder_scan_btn"
             android:layout_width="130dp"
             android:layout_height="55dp"
             android:layout_gravity="end"
             android:layout_marginTop="40dp"
+            android:layout_marginEnd="30dp"
+            android:fontFamily="@font/comfortaa"
+            android:text="SCAN"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:backgroundTint="#EA6D00" />
+
+        <Button
+            android:id="@+id/workOrder_btn"
+            android:layout_width="130dp"
+            android:layout_height="55dp"
+            android:layout_gravity="end"
             android:layout_marginEnd="30dp"
             android:fontFamily="@font/comfortaa"
             android:text="next"
