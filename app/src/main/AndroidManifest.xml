@@ -12,17 +12,35 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Cumi">
         <activity
-            android:name=".barcodeScanning"
+            android:name=".QAForm038"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".QAForm050"
             android:exported="false" />
         <activity
+            android:name=".QAForm037"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".barcodeScanning"
+            android:exported="false"
+            android:noHistory="true" />
+        <activity
             android:name=".QualityDataEntry"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".SelectWorkorder"
             android:exported="false" />
         <activity
             android:name=".SelectProcess"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".Login"
             android:exported="false" />
@@ -35,13 +53,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:noHistory="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:noHistory="true" />
 
         <meta-data
             android:name="preloaded_fonts"

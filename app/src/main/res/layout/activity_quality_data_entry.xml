@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".QualityDataEntry"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".QualityDataEntry">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -352,13 +352,13 @@
             android:layout_height="55dp"
             android:layout_gravity="end"
             android:layout_marginTop="30dp"
-            android:layout_marginBottom="30dp"
             android:layout_marginEnd="30dp"
+            android:layout_marginBottom="30dp"
             android:fontFamily="@font/comfortaa"
             android:text="Submit"
+            android:textSize="16sp"
             android:textStyle="bold"
-            app:backgroundTint="#EA6D00"
-            android:textSize="16sp"/>
+            app:backgroundTint="#EA6D00" />
 
     </LinearLayout>
 </ScrollView>

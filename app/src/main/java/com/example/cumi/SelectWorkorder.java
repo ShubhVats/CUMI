@@ -45,7 +45,7 @@ public class SelectWorkorder extends AppCompatActivity {
 
         //Navigation
         NavBtn.setOnClickListener(view -> {
-            Intent i = new Intent(SelectWorkorder.this, QualityDataEntry.class);
+            Intent i = new Intent(SelectWorkorder.this, QAForm037.class);
             startActivity(i);
         });
 
