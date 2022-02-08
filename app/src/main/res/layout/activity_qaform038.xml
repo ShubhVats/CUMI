@@ -613,15 +613,14 @@
                         android:padding="3dip"
                         android:text="Preheating Details"
                         android:textColor="@color/black"
-                        android:textStyle="bold"/>
+                        android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_weight="1"
                         android:padding="3dip"
                         android:text=""
-                        android:textColor="@color/black"
-                         />
+                        android:textColor="@color/black" />
 
                     <TextView
                         android:layout_width="0dp"
@@ -639,6 +638,7 @@
                         android:textColor="@color/black" />
 
                 </TableRow>
+
                 <TableRow>
 
                     <TextView
@@ -647,7 +647,7 @@
                         android:padding="3dip"
                         android:text="Temprature"
                         android:textColor="@color/black"
-                        android:textStyle="bold"/>
+                        android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="0dp"
@@ -673,6 +673,7 @@
                         android:textColor="@color/black" />
 
                 </TableRow>
+
                 <TableRow>
 
                     <TextView
@@ -680,8 +681,8 @@
                         android:layout_weight="1"
                         android:padding="3dip"
                         android:text="Electrical Characteristics"
-                        android:textStyle="bold"
-                        android:textColor="@color/black" />
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="0dp"
@@ -707,19 +708,22 @@
                         android:textColor="@color/black" />
 
                 </TableRow>
+
                 <TableRow>
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:padding="3dip"
                         android:text="Parameter"
-                        android:textStyle="bold"
-                        android:textColor="@color/black" />
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:padding="3dip"
                         android:text="Root Run"
                         android:textColor="@color/black"
@@ -728,21 +732,486 @@
                     <TextView
                         android:layout_width="0dp"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:padding="3dip"
                         android:text="Cap Run"
                         android:textColor="@color/black"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:textStyle="bold"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Remarks"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
                         android:layout_width="0dp"
                         android:layout_weight="1"
                         android:padding="3dip"
-                        android:text="Remarks"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Specification"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Actual"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Specification"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Actual"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="3dip"
+                        android:text="Current type and polarity"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="3dip"
+                        android:text=""
                         android:textColor="@color/black" />
 
                 </TableRow>
 
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="3dip"
+                        android:text="Ampere"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="3dip"
+                        android:text="Volts"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="3dip"
+                        android:text="Gas Flow"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="3dip"
+                        android:text="Travel Speed"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="3dip"
+                        android:text="Position of Welding"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="3dip"
+                        android:text="Welding Sequence : Butt Welding (Sketch)"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="3dip"
+                        android:text="Welding Sequence : Fillet Welding (Sketch)"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="3dip"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="3dip"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="3dip"
+                        android:text="Result: Accepted / Not accepted"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="3dip"
+                        android:gravity="center"
+                        android:text="Inspected by Vendor /  Production\n(Name and Sign)"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="3dip"
+                        android:gravity="center"
+                        android:text="Inspected by CUMI-QA\n(Name and Sign)"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="3dip"
+                        android:gravity="center"
+                        android:text="Inspected by CUMI-QA\n(Name and Sign)"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="3dip"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="3dip"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="3dip"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                </TableRow>
             </TableLayout>
         </HorizontalScrollView>
 

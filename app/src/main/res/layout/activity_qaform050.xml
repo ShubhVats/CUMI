@@ -65,7 +65,7 @@
 
                 <TextView
                     android:padding="3dip"
-                    android:text="Vendor Name: "
+                    android:text="Paint Specification: "
                     android:textColor="@color/black" />
 
                 <TextView
@@ -78,7 +78,7 @@
 
                 <TextView
                     android:padding="3dip"
-                    android:text="Product:"
+                    android:text="Item No.:"
                     android:textColor="@color/black" />
 
                 <TextView
@@ -88,30 +88,7 @@
 
                 <TextView
                     android:padding="3dip"
-                    android:text="Item No.: "
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:padding="3dip"
-                    android:text=""
-                    android:textColor="@color/black" />
-            </TableRow>
-
-            <TableRow>
-
-                <TextView
-                    android:padding="3dip"
-                    android:text="Drg No:"
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:padding="3dip"
-                    android:text=""
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:padding="3dip"
-                    android:text="QA No.: "
+                    android:text="Grit/Sand Blasting : "
                     android:textColor="@color/black" />
 
                 <TextView
@@ -124,7 +101,7 @@
 
                 <TextView
                     android:padding="3dip"
-                    android:text="Item Code:"
+                    android:text="Date:"
                     android:textColor="@color/black" />
 
                 <TextView
@@ -134,7 +111,30 @@
 
                 <TextView
                     android:padding="3dip"
-                    android:text="Date: "
+                    android:text="Surface Preparation \nVendor: "
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:padding="3dip"
+                    android:text=""
+                    android:textColor="@color/black" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="QA No/Item code:"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:padding="3dip"
+                    android:text=""
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="Surface Profile \n(Min. 40u):"
                     android:textColor="@color/black" />
 
                 <TextView
@@ -148,7 +148,76 @@
 
                 <TextView
                     android:padding="3dip"
-                    android:text="WO No.:"
+                    android:text="Vendor Name:"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:padding="3dip"
+                    android:text=""
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="Surface Preparation \nDate and Time:"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:padding="3dip"
+                    android:text=""
+                    android:textColor="@color/black" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="Serial No:"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:padding="3dip"
+                    android:text=""
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="Surface Preparation \nOk / Not Ok:"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:padding="3dip"
+                    android:text=""
+                    android:textColor="@color/black" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="Product Description:"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:padding="3dip"
+                    android:text=""
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="Inspected By:"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:padding="3dip"
+                    android:text=""
+                    android:textColor="@color/black" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="Drawing No.:"
                     android:textColor="@color/black" />
 
                 <TextView
@@ -173,7 +242,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp"
-            android:text="Check Points:-"
+            android:text=""
             android:textColor="@color/black"
             android:textStyle="bold" />
 
@@ -187,70 +256,24 @@
                 android:layout_height="match_parent"
                 android:stretchColumns="*">
 
-                <TableRow>
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text="Sl No."
-                        android:textColor="@color/black"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text="Check Points"
-                        android:textColor="@color/black"
-                        android:textStyle="bold" />
-
-                    <TextView
-
-                        android:padding="3dip"
-                        android:text="Specification"
-                        android:textColor="@color/black"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text="Vendor(L-Seam)"
-                        android:textColor="@color/black"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text="CUMI(L-Seam)"
-                        android:textColor="@color/black"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text="Vendor(C-Seam)"
-                        android:textColor="@color/black"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text="CUMI(C-Seam)"
-                        android:textColor="@color/black"
-                        android:textStyle="bold" />
-
-
-                </TableRow>
 
                 <TableRow>
 
                     <TextView
                         android:gravity="center"
                         android:padding="3dip"
-                        android:text="1"
+                        android:text="1st Coat"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Paint Grade"
                         android:textColor="@color/black" />
 
                     <TextView
                         android:padding="3dip"
-                        android:text="Plate Thickness"
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text="As Per Drawing"
+                        android:text=""
                         android:textColor="@color/black" />
 
                     <TextView
@@ -264,17 +287,17 @@
                     <TextView
                         android:gravity="center"
                         android:padding="3dip"
-                        android:text="2"
+                        android:text=""
                         android:textColor="@color/black" />
 
                     <TextView
                         android:padding="3dip"
-                        android:text="Joint Type"
+                        android:text="Batch No."
                         android:textColor="@color/black" />
 
                     <TextView
                         android:padding="3dip"
-                        android:text="Butt / Fillet"
+                        android:text=""
                         android:textColor="@color/black" />
 
                     <TextView
@@ -288,17 +311,17 @@
                     <TextView
                         android:gravity="center"
                         android:padding="3dip"
-                        android:text="3"
+                        android:text=""
                         android:textColor="@color/black" />
 
                     <TextView
                         android:padding="3dip"
-                        android:text="Groove Detail"
+                        android:text="Mix Ratio Part A : B"
                         android:textColor="@color/black" />
 
                     <TextView
                         android:padding="3dip"
-                        android:text="Square / Single V / Double V"
+                        android:text=""
                         android:textColor="@color/black" />
 
                     <TextView
@@ -312,17 +335,17 @@
                     <TextView
                         android:gravity="center"
                         android:padding="3dip"
-                        android:text="4"
+                        android:text=""
                         android:textColor="@color/black" />
 
                     <TextView
                         android:padding="3dip"
-                        android:text="Groove Angle"
+                        android:text="Thinner Specification / Batch No."
                         android:textColor="@color/black" />
 
                     <TextView
                         android:padding="3dip"
-                        android:text="As Per Drawing"
+                        android:text=""
                         android:textColor="@color/black" />
 
                     <TextView
@@ -336,17 +359,17 @@
                     <TextView
                         android:gravity="center"
                         android:padding="3dip"
-                        android:text="5"
+                        android:text=""
                         android:textColor="@color/black" />
 
                     <TextView
                         android:padding="3dip"
-                        android:text="Root Gap"
+                        android:text="Paint Starting Date And Time"
                         android:textColor="@color/black" />
 
                     <TextView
                         android:padding="3dip"
-                        android:text="As Per Drawing"
+                        android:text=""
                         android:textColor="@color/black" />
 
                     <TextView
@@ -360,17 +383,17 @@
                     <TextView
                         android:gravity="center"
                         android:padding="3dip"
-                        android:text="6"
+                        android:text=""
                         android:textColor="@color/black" />
 
                     <TextView
                         android:padding="3dip"
-                        android:text="Root Face"
+                        android:text="Relative Humidity(%)"
                         android:textColor="@color/black" />
 
                     <TextView
                         android:padding="3dip"
-                        android:text="As Per Drawing"
+                        android:text=""
                         android:textColor="@color/black" />
 
                     <TextView
@@ -384,17 +407,17 @@
                     <TextView
                         android:gravity="center"
                         android:padding="3dip"
-                        android:text="7"
+                        android:text=""
                         android:textColor="@color/black" />
 
                     <TextView
                         android:padding="3dip"
-                        android:text="Misalignment"
+                        android:text="Due Point Temperature(C)"
                         android:textColor="@color/black" />
 
                     <TextView
                         android:padding="3dip"
-                        android:text="As Per WI/QA/17"
+                        android:text=""
                         android:textColor="@color/black" />
 
                     <TextView
@@ -408,7 +431,7 @@
                     <TextView
                         android:gravity="center"
                         android:padding="3dip"
-                        android:text="8"
+                        android:text=""
                         android:textColor="@color/black" />
 
                     <TextView
@@ -418,7 +441,7 @@
 
                     <TextView
                         android:padding="3dip"
-                        android:text="As Per Drawing"
+                        android:text=""
                         android:textColor="@color/black" />
 
                     <TextView
@@ -432,17 +455,17 @@
                     <TextView
                         android:gravity="center"
                         android:padding="3dip"
-                        android:text="9"
+                        android:text=""
                         android:textColor="@color/black" />
 
                     <TextView
                         android:padding="3dip"
-                        android:text="Short Segment Size (Bend)"
+                        android:text="Wet Film Thickness(u)"
                         android:textColor="@color/black" />
 
                     <TextView
                         android:padding="3dip"
-                        android:text="As Per Drawing"
+                        android:text=""
                         android:textColor="@color/black" />
 
                     <TextView
@@ -456,17 +479,17 @@
                     <TextView
                         android:gravity="center"
                         android:padding="3dip"
-                        android:text="10"
+                        android:text=""
                         android:textColor="@color/black" />
 
                     <TextView
                         android:padding="3dip"
-                        android:text="Involute Portion Opening Height (Inlet)"
+                        android:text="Painting Operator Name"
                         android:textColor="@color/black" />
 
                     <TextView
                         android:padding="3dip"
-                        android:text="As Per Drawing"
+                        android:text=""
                         android:textColor="@color/black" />
 
                     <TextView
@@ -474,8 +497,1127 @@
                         android:text=""
                         android:textColor="@color/black" />
                 </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Paint Dried Date and Time"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Hard dry Spec.(Hrs) @25C/40C"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Actual Hard Dry Duration(Hrs)"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Dry Film Thickness Spec."
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Dry Film Thickness(u)"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Top Flang"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Dry Film Thickness(u)"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Casing"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Dry Film Thickness(u)"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Bottom Flange"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Inspected by Name, Date and Time"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="2nd Coat"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Paint Grade"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Batch No."
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Mix Ratio Part A : B"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Thinner Specification / Batch No."
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Paint Starting Date And Time"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Relative Humidity(%)"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Due Point Temperature(C)"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Long Segment Size (Bend)"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Wet Film Thickness(u)"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Painting Operator Name"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Paint Dried Date and Time"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Hard dry Spec.(Hrs) @25C/40C"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Actual Hard Dry Duration(Hrs)"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Dry Film Thickness Spec."
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Dry Film Thickness(u)"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Top Flang"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Dry Film Thickness(u)"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Casing"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Dry Film Thickness(u)"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Bottom Flange"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Inspected by Name, Date and Time"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="3rd Coat"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Paint Grade"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Batch No."
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Mix Ratio Part A : B"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Thinner Specification / Batch No."
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Paint Starting Date And Time"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Relative Humidity(%)"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Due Point Temperature(C)"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Long Segment Size (Bend)"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Wet Film Thickness(u)"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Painting Operator Name"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Paint Dried Date and Time"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Hard dry Spec.(Hrs) @25C/40C"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Actual Hard Dry Duration(Hrs)"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Dry Film Thickness Spec."
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Dry Film Thickness(u)"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Top Flang"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Dry Film Thickness(u)"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Casing"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Dry Film Thickness(u)"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Bottom Flange"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="start"
+                        android:padding="3dip"
+                        android:text="Inspected by Name, Date and Time"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="start"
+                        android:padding="3dip"
+                        android:text="Approved By"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="start"
+                        android:padding="3dip"
+                        android:text="Remarks"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="*Measure thickness in critical locations of Product.   *Dry the film thickness must be average of minimum 09 measured values."
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text=""
+                    android:textColor="@color/black" />
 
             </TableLayout>
+
         </HorizontalScrollView>
 
         <Button

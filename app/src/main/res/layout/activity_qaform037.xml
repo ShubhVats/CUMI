@@ -24,19 +24,19 @@
                 android:src="@drawable/cumiwork" />
 
             <TextView
-                android:padding="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
                 android:gravity="right"
+                android:padding="20dp"
                 android:text="OA Form 37"
                 android:textColor="@color/black" />
         </LinearLayout>
 
         <TextView
-            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:fontFamily="monospace"
             android:gravity="center"
             android:text="Fit-up Offer - CUM - Clearance Certificate"
@@ -45,10 +45,10 @@
             android:textStyle="bold" />
 
         <TableLayout
-            android:padding="10dp"
-            android:layout_marginTop="10dp"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
             android:stretchColumns="*">
 
             <TableRow>
@@ -170,12 +170,12 @@
         </TableLayout>
 
         <TextView
-            android:textStyle="bold"
-            android:padding="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:padding="10dp"
             android:text="Check Points:-"
-            android:textColor="@color/black" />
+            android:textColor="@color/black"
+            android:textStyle="bold" />
 
         <HorizontalScrollView
             android:layout_width="wrap_content"
@@ -477,6 +477,162 @@
 
             </TableLayout>
         </HorizontalScrollView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Remarks:-"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:stretchColumns="*">
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Seam"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Date"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+
+                        android:padding="3dip"
+                        android:text="Qty"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Vendor/Production (Name + Sign)"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Inspected by CUMI-QA (Name + Sign)"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Status"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Ok"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Not ok"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Hold"
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="L-Seam"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="C-Seam"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </TableRow>
+
+            </TableLayout>
+        </HorizontalScrollView>
+
 
         <Button
             android:id="@+id/login_btn"
