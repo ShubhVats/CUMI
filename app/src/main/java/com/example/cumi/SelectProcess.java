@@ -4,15 +4,19 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 public class SelectProcess extends AppCompatActivity {
 
     Spinner processIDSpinner;
     Button NavBtn;
+    String processKey = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -83,7 +87,20 @@ public class SelectProcess extends AppCompatActivity {
         //
         NavBtn.setOnClickListener(view -> {
             Intent i = new Intent(SelectProcess.this, SelectWorkorder.class);
+            i.putExtra("processKey",processKey);
             startActivity(i);
+        });
+        processIDSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+                processKey = adapterView.getItemAtPosition(i).toString();
+                Toast.makeText(adapterView.getContext(), processKey, Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
         });
     }
 }

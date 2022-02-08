@@ -26,6 +26,9 @@ public class SelectWorkorder extends AppCompatActivity {
         WorkOrderSpinner = findViewById(R.id.workOrder_spinner);
         BarcodeValue = findViewById(R.id.workOrder_barcodeValue_txt);
 
+        //Get Intent
+        String processKey = getIntent().getStringExtra("processKey");
+
         //Spinner
         Integer[] arr = {1, 2, 3, 4, 5};
         WorkOrderSpinner.setAdapter(new ArrayAdapter<>(SelectWorkorder.this, android.R.layout.simple_spinner_dropdown_item, arr));
@@ -45,9 +48,10 @@ public class SelectWorkorder extends AppCompatActivity {
 
         //Navigation
         NavBtn.setOnClickListener(view -> {
-            Intent i = new Intent(SelectWorkorder.this, QAForm037.class);
-            startActivity(i);
+            if (processKey.equals("P07	Flange-Edge Preparation")) {
+                Intent i = new Intent(SelectWorkorder.this, QAForm037.class);
+                startActivity(i);
+            }
         });
-
     }
 }
