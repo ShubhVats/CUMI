@@ -1,4 +1,4 @@
-c<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -8,6 +8,20 @@ c<?xml version="1.0" encoding="utf-8"?>
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".Dashboard1">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/material_store_btn"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/comfortaa"
+        android:gravity="center"
+        android:text="Material Store"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:backgroundTint="#71AC2C"
+        app:cornerRadius="20dp" />
+
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/production_btn"
