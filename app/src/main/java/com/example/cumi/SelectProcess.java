@@ -24,7 +24,9 @@ public class SelectProcess extends AppCompatActivity {
         setContentView(R.layout.activity_select_process);
 
 
-        String Parent = getIntent().getStringExtra("Parent");
+        Intent i = getIntent();
+        String Parent = i.getStringExtra("Parent");
+
         NavBtn = findViewById(R.id.processID_btn);
         processIDSpinner = findViewById(R.id.processID_spinner);
 
@@ -83,14 +85,14 @@ public class SelectProcess extends AppCompatActivity {
                 , "P33	Final inspection clearances by customer"
                 , "P34	Pack and dispatch"};
         //Spinner
-        String[] arr2 = {
+        String[] arr3 = {
                 "Unloading Raw material",
                 "Inward inspection - Internal",
                 "External lab testing",
                 "Raw material Cust inspect"};
 
         //Spinner
-        String[] arr3 = {
+        String[] arr2 = {
                 "P01	Unloading Raw material"
                 , "P02	Inward inspection - Internal"
                 , "EP01	External lab testing"
@@ -144,15 +146,16 @@ public class SelectProcess extends AppCompatActivity {
                 , "P33	Final inspection clearances by customer"
                 , "P34	Pack and dispatch"};
 
+        Log.e("Here", Parent);
         switch (Parent) {
             case "Production":
                 processIDSpinner.setAdapter(new ArrayAdapter<>(SelectProcess.this, android.R.layout.simple_spinner_dropdown_item, arr));
 
                 //
                 NavBtn.setOnClickListener(view -> {
-                    Intent i = new Intent(SelectProcess.this, SelectWorkorder.class);
-                    i.putExtra("processKey", processKey);
-                    startActivity(i);
+                    Intent intent = new Intent(SelectProcess.this, SelectWorkorder.class);
+                    intent.putExtra("processKey", processKey);
+                    startActivity(intent);
                 });
                 break;
             case "Quality":
@@ -160,9 +163,9 @@ public class SelectProcess extends AppCompatActivity {
 
                 //
                 NavBtn.setOnClickListener(view -> {
-                    Intent i = new Intent(SelectProcess.this, SelectWorkorder.class);
-                    i.putExtra("processKey", processKey);
-                    startActivity(i);
+                    Intent intent = new Intent(SelectProcess.this, SelectWorkorder.class);
+                    intent.putExtra("processKey", processKey);
+                    startActivity(intent);
                 });
                 break;
             case "Material_Store":
@@ -170,9 +173,9 @@ public class SelectProcess extends AppCompatActivity {
 
                 //
                 NavBtn.setOnClickListener(view -> {
-                    Intent i = new Intent(SelectProcess.this, SelectWorkorder.class);
-                    i.putExtra("processKey", processKey);
-                    startActivity(i);
+                    Intent intent = new Intent(SelectProcess.this, UnloadingRawMaterial.class);
+                    intent.putExtra("processKey", processKey);
+                    startActivity(intent);
                 });
                 break;
         }

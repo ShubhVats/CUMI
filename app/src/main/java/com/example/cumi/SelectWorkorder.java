@@ -48,7 +48,23 @@ public class SelectWorkorder extends AppCompatActivity {
 
         //Navigation
         NavBtn.setOnClickListener(view -> {
+            if (processKey.equals("P04	Casing-Edge Preparation")) {
+                Intent i = new Intent(SelectWorkorder.this, QAForm037.class);
+                startActivity(i);
+            }
+            if (processKey.equals("P06	Casing-L Seam welding")) {
+                Intent i = new Intent(SelectWorkorder.this, QAForm038.class);
+                startActivity(i);
+            }
             if (processKey.equals("P07	Flange-Edge Preparation")) {
+                Intent i = new Intent(SelectWorkorder.this, QAForm037.class);
+                startActivity(i);
+            }
+            if (processKey.equals("P08	Flange-Welding")) {
+                Intent i = new Intent(SelectWorkorder.this, QAForm038.class);
+                startActivity(i);
+            }
+            if (processKey.equals("P12	Fit-Up")) {
                 Intent i = new Intent(SelectWorkorder.this, QAForm037.class);
                 startActivity(i);
             }

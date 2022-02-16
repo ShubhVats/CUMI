@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Cumi">
         <activity
+            android:name=".QAForm034"
+            android:exported="false" />
+        <activity
             android:name=".UnloadingRawMaterial"
             android:exported="false" />
         <activity
@@ -19,13 +22,13 @@
             android:exported="false" />
         <activity
             android:name=".QAForm038"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".QAForm050"
             android:exported="false" />
         <activity
             android:name=".QAForm037"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".barcodeScanning"
             android:exported="false"
