@@ -58,7 +58,7 @@
                     android:text="Customer Name:"
                     android:textColor="@color/black" />
 
-                <TextView
+                <EditText
                     android:padding="3dip"
                     android:text=""
                     android:textColor="@color/black" />
@@ -68,7 +68,7 @@
                     android:text="Vendor Name: "
                     android:textColor="@color/black" />
 
-                <TextView
+                <EditText
                     android:padding="3dip"
                     android:text=""
                     android:textColor="@color/black" />
@@ -81,7 +81,7 @@
                     android:text="Product:"
                     android:textColor="@color/black" />
 
-                <TextView
+                <EditText
                     android:padding="3dip"
                     android:text=""
                     android:textColor="@color/black" />
@@ -91,7 +91,7 @@
                     android:text="Item No.: "
                     android:textColor="@color/black" />
 
-                <TextView
+                <EditText
                     android:padding="3dip"
                     android:text=""
                     android:textColor="@color/black" />
@@ -104,7 +104,7 @@
                     android:text="Drg No:"
                     android:textColor="@color/black" />
 
-                <TextView
+                <EditText
                     android:padding="3dip"
                     android:text=""
                     android:textColor="@color/black" />
@@ -114,7 +114,7 @@
                     android:text="QA No.: "
                     android:textColor="@color/black" />
 
-                <TextView
+                <EditText
                     android:padding="3dip"
                     android:text=""
                     android:textColor="@color/black" />
@@ -127,7 +127,7 @@
                     android:text="Item Code:"
                     android:textColor="@color/black" />
 
-                <TextView
+                <EditText
                     android:padding="3dip"
                     android:text=""
                     android:textColor="@color/black" />
@@ -137,7 +137,7 @@
                     android:text="Date: "
                     android:textColor="@color/black" />
 
-                <TextView
+                <EditText
                     android:padding="3dip"
                     android:text=""
                     android:textColor="@color/black" />
@@ -253,7 +253,23 @@
                         android:text="As Per Drawing"
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:layout_height="match_parent"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                    <EditText
+                        android:layout_height="match_parent"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                    <EditText
+                        android:layout_height="match_parent"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                    <EditText
+                        android:layout_height="match_parent"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
@@ -277,11 +293,26 @@
                         android:text="Butt / Fillet"
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:layout_height="match_parent"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
-                </TableRow>
+                    <EditText
+                        android:layout_height="match_parent"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                    <EditText
+                        android:layout_height="match_parent"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                    <EditText
+                        android:layout_height="match_parent"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />                </TableRow>
 
                 <TableRow>
 
@@ -301,7 +332,23 @@
                         android:text="Square / Single V / Double V"
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:layout_height="match_parent"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                    <EditText
+                        android:layout_height="match_parent"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                    <EditText
+                        android:layout_height="match_parent"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                    <EditText
+                        android:layout_height="match_parent"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
@@ -325,7 +372,23 @@
                         android:text="As Per Drawing"
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:layout_height="match_parent"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                    <EditText
+                        android:layout_height="match_parent"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                    <EditText
+                        android:layout_height="match_parent"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                    <EditText
+                        android:layout_height="match_parent"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
@@ -349,7 +412,23 @@
                         android:text="As Per Drawing"
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:layout_height="match_parent"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                    <EditText
+                        android:layout_height="match_parent"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                    <EditText
+                        android:layout_height="match_parent"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                    <EditText
+                        android:layout_height="match_parent"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
@@ -373,7 +452,23 @@
                         android:text="As Per Drawing"
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:layout_height="match_parent"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                    <EditText
+                        android:layout_height="match_parent"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                    <EditText
+                        android:layout_height="match_parent"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                    <EditText
+                        android:layout_height="match_parent"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
@@ -397,7 +492,23 @@
                         android:text="As Per WI/QA/17"
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:layout_height="match_parent"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                    <EditText
+                        android:layout_height="match_parent"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                    <EditText
+                        android:layout_height="match_parent"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                    <EditText
+                        android:layout_height="match_parent"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
@@ -421,7 +532,23 @@
                         android:text="As Per Drawing"
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:layout_height="match_parent"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                    <EditText
+                        android:layout_height="match_parent"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                    <EditText
+                        android:layout_height="match_parent"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                    <EditText
+                        android:layout_height="match_parent"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
@@ -445,7 +572,23 @@
                         android:text="As Per Drawing"
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:layout_height="match_parent"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                    <EditText
+                        android:layout_height="match_parent"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                    <EditText
+                        android:layout_height="match_parent"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                    <EditText
+                        android:layout_height="match_parent"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
@@ -469,7 +612,23 @@
                         android:text="As Per Drawing"
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:layout_height="match_parent"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                    <EditText
+                        android:layout_height="match_parent"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                    <EditText
+                        android:layout_height="match_parent"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                    <EditText
+                        android:layout_height="match_parent"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
@@ -535,6 +694,14 @@
                         android:text="Status"
                         android:textColor="@color/black"
                         android:textStyle="bold" />
+                    <TextView
+                        android:padding="3dip"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:padding="3dip"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
 
                 </TableRow>
 
@@ -590,17 +757,33 @@
                         android:text="L-Seam"
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                    <EditText
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                    <EditText
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                    <EditText
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                    <EditText
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
@@ -614,17 +797,33 @@
                         android:text="C-Seam"
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                    <EditText
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                    <EditText
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                    <EditText
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+                    <EditText
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />

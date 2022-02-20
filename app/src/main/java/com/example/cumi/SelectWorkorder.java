@@ -68,6 +68,68 @@ public class SelectWorkorder extends AppCompatActivity {
                 Intent i = new Intent(SelectWorkorder.this, QAForm037.class);
                 startActivity(i);
             }
+            if (processKey.equals("P16	Leak Test")) {
+                Intent i = new Intent(SelectWorkorder.this, QAForm034.class);
+                startActivity(i);
+            }
+            if (processKey.equals("P25	Paint mixing data")) {
+                Intent i = new Intent(SelectWorkorder.this, QAForm050.class);
+                startActivity(i);
+            }
+            if (processKey.equals("P26	Painting")) {
+                //THIS PROCESS WILL HAVE TWO RESULTING SCREENS
+                //MAKE NEW SCREEN ADDING THESE SCREENS
+//                Intent i = new Intent(SelectWorkorder.this, QAForm050.class);
+//                startActivity(i);
+            }
+            if (processKey.equals("P27	type-1 Base coating")) {
+                Intent i = new Intent(SelectWorkorder.this, QAForm050.class);
+                startActivity(i);
+            }
+            if (processKey.equals("AP01	Owen drying")) {
+                Intent i = new Intent(SelectWorkorder.this, QAForm050.class);
+                startActivity(i);
+            }
+            if (processKey.equals("P28	inspection")) {
+                Intent i = new Intent(SelectWorkorder.this, QAForm050.class);
+                startActivity(i);
+            }
+            if (processKey.equals("AP02	Intermediate coating")) {
+                Intent i = new Intent(SelectWorkorder.this, QAForm050.class);
+                startActivity(i);
+            }
+            if (processKey.equals("AP03	Owen drying")) {
+                Intent i = new Intent(SelectWorkorder.this, QAForm050.class);
+                startActivity(i);
+            }
+            if (processKey.equals("AP04	inspection")) {
+                Intent i = new Intent(SelectWorkorder.this, QAForm050.class);
+                startActivity(i);
+            }
+            if (processKey.equals("AP05	Owen drying")) {
+                Intent i = new Intent(SelectWorkorder.this, QAForm050.class);
+                startActivity(i);
+            }
+            if (processKey.equals("P30	Inspection")) {
+                Intent i = new Intent(SelectWorkorder.this, QAForm050.class);
+                startActivity(i);
+            }
+            if (processKey.equals("AP06	Assembly inspection")) {
+                Intent i = new Intent(SelectWorkorder.this, QAForm050.class);
+                startActivity(i);
+            }
+            if (processKey.equals("P32	Customer inspection")) {
+                Intent i = new Intent(SelectWorkorder.this, QAForm050.class);
+                startActivity(i);
+            }
+            if (processKey.equals("P33	Final inspection clearances by customer")) {
+                Intent i = new Intent(SelectWorkorder.this, QAForm050.class);
+                startActivity(i);
+            }
+            if (processKey.equals("P34	Pack and dispatch")) {
+                Intent i = new Intent(SelectWorkorder.this, QAForm050.class);
+                startActivity(i);
+            }
         });
     }
 }
