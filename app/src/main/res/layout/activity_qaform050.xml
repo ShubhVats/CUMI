@@ -21,13 +21,14 @@
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
+                android:contentDescription="Logo"
                 android:src="@drawable/cumiwork" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="right"
-                android:gravity="right"
+                android:layout_gravity="end"
+                android:gravity="end"
                 android:padding="20dp"
                 android:text="OA Form 050"
                 android:textColor="@color/black" />
@@ -279,6 +280,8 @@
 
                     <EditText
                         android:layout_width="100dp"
+                        android:autofillHints=""
+                        android:inputType="text"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
@@ -1284,7 +1287,38 @@
                         android:text=""
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
@@ -1308,7 +1342,38 @@
                         android:text=""
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
@@ -1332,7 +1397,38 @@
                         android:text=""
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
@@ -1356,7 +1452,38 @@
                         android:text=""
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
@@ -1380,7 +1507,38 @@
                         android:text=""
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
@@ -1404,7 +1562,38 @@
                         android:text=""
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
@@ -1428,7 +1617,38 @@
                         android:text=""
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
@@ -1452,7 +1672,38 @@
                         android:text=""
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
@@ -1476,7 +1727,38 @@
                         android:text=""
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
@@ -1500,7 +1782,38 @@
                         android:text=""
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
@@ -1524,7 +1837,38 @@
                         android:text=""
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
@@ -1548,7 +1892,38 @@
                         android:text=""
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
@@ -1572,7 +1947,38 @@
                         android:text=""
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
@@ -1596,7 +2002,38 @@
                         android:text=""
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
@@ -1620,7 +2057,38 @@
                         android:text="Top Flang"
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
@@ -1644,7 +2112,38 @@
                         android:text="Casing"
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
@@ -1668,7 +2167,38 @@
                         android:text="Bottom Flange"
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
@@ -1692,7 +2222,38 @@
                         android:text=""
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
@@ -1717,7 +2278,38 @@
                         android:text=""
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
@@ -1741,7 +2333,38 @@
                         android:text=""
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
@@ -1765,7 +2388,38 @@
                         android:text=""
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
@@ -1789,7 +2443,38 @@
                         android:text=""
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
@@ -1813,7 +2498,38 @@
                         android:text=""
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
@@ -1837,7 +2553,38 @@
                         android:text=""
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
@@ -1861,7 +2608,38 @@
                         android:text=""
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
@@ -1885,7 +2663,38 @@
                         android:text=""
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
@@ -1909,7 +2718,38 @@
                         android:text=""
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
@@ -1933,7 +2773,38 @@
                         android:text=""
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
@@ -1957,7 +2828,38 @@
                         android:text=""
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
@@ -1981,7 +2883,38 @@
                         android:text=""
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
@@ -2005,7 +2938,38 @@
                         android:text=""
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
@@ -2029,7 +2993,38 @@
                         android:text=""
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
@@ -2053,7 +3048,38 @@
                         android:text="Top Flang"
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
@@ -2077,7 +3103,38 @@
                         android:text="Casing"
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
@@ -2101,7 +3158,38 @@
                         android:text="Bottom Flange"
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
                         android:padding="3dip"
                         android:text=""
                         android:textColor="@color/black" />
