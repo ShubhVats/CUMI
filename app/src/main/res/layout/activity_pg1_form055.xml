@@ -29,7 +29,7 @@
                 android:layout_gravity="right"
                 android:gravity="right"
                 android:padding="20dp"
-                android:text="OA Form 37"
+                android:text="PG Form 055"
                 android:textColor="@color/black" />
         </LinearLayout>
 
@@ -39,143 +39,11 @@
             android:layout_marginTop="10dp"
             android:fontFamily="monospace"
             android:gravity="center"
-            android:text="Fit-up Offer - CUM - Clearance Certificate"
+            android:text="ROLLING AND BENDING - DATA"
             android:textColor="@color/black"
             android:textSize="26sp"
             android:textStyle="bold" />
 
-        <TableLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_marginTop="10dp"
-            android:padding="10dp"
-            android:stretchColumns="*">
-
-            <TableRow>
-
-                <TextView
-                    android:padding="3dip"
-                    android:text="Customer Name:"
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:padding="3dip"
-                    android:text=""
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:padding="3dip"
-                    android:text="Vendor Name: "
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:padding="3dip"
-                    android:text=""
-                    android:textColor="@color/black" />
-            </TableRow>
-
-            <TableRow>
-
-                <TextView
-                    android:padding="3dip"
-                    android:text="Product:"
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:padding="3dip"
-                    android:text=""
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:padding="3dip"
-                    android:text="Item No.: "
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:padding="3dip"
-                    android:text=""
-                    android:textColor="@color/black" />
-            </TableRow>
-
-            <TableRow>
-
-                <TextView
-                    android:padding="3dip"
-                    android:text="Drg No:"
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:padding="3dip"
-                    android:text=""
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:padding="3dip"
-                    android:text="QA No.: "
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:padding="3dip"
-                    android:text=""
-                    android:textColor="@color/black" />
-            </TableRow>
-
-            <TableRow>
-
-                <TextView
-                    android:padding="3dip"
-                    android:text="Item Code:"
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:padding="3dip"
-                    android:text=""
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:padding="3dip"
-                    android:text="Date: "
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:padding="3dip"
-                    android:text=""
-                    android:textColor="@color/black" />
-            </TableRow>
-
-
-            <TableRow>
-
-                <TextView
-                    android:padding="3dip"
-                    android:text="WO No.:"
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:padding="3dip"
-                    android:text=""
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:padding="3dip"
-                    android:text=""
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:padding="3dip"
-                    android:text=""
-                    android:textColor="@color/black" />
-            </TableRow>
-
-        </TableLayout>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:text="Check Points:-"
-            android:textColor="@color/black"
-            android:textStyle="bold" />
 
         <HorizontalScrollView
             android:layout_width="wrap_content"
@@ -197,38 +65,50 @@
 
                     <TextView
                         android:padding="3dip"
-                        android:text="Check Points"
+                        android:text="Length"
                         android:textColor="@color/black"
                         android:textStyle="bold" />
 
                     <TextView
 
                         android:padding="3dip"
-                        android:text="Specification"
+                        android:text="Width"
                         android:textColor="@color/black"
                         android:textStyle="bold" />
 
                     <TextView
                         android:padding="3dip"
-                        android:text="Vendor(L-Seam)"
+                        android:text="ID"
                         android:textColor="@color/black"
                         android:textStyle="bold" />
 
                     <TextView
                         android:padding="3dip"
-                        android:text="CUMI(L-Seam)"
+                        android:text=""
                         android:textColor="@color/black"
                         android:textStyle="bold" />
 
                     <TextView
                         android:padding="3dip"
-                        android:text="Vendor(C-Seam)"
+                        android:text="OD"
                         android:textColor="@color/black"
                         android:textStyle="bold" />
 
                     <TextView
                         android:padding="3dip"
-                        android:text="CUMI(C-Seam)"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Weight"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Remarks"
                         android:textColor="@color/black"
                         android:textStyle="bold" />
 
@@ -240,399 +120,84 @@
                     <TextView
                         android:gravity="center"
                         android:padding="3dip"
-                        android:text="1"
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text="Plate Thickness"
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text="As Per Drawing"
+                        android:text=""
                         android:textColor="@color/black" />
 
                     <TextView
                         android:padding="3dip"
                         android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Req."
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Act."
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Req."
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Act."
                         android:textColor="@color/black" />
                 </TableRow>
 
                 <TableRow>
 
-                    <TextView
+                    <EditText
                         android:gravity="center"
                         android:padding="3dip"
-                        android:text="2"
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
                         android:padding="3dip"
-                        android:text="Joint Type"
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
                         android:padding="3dip"
-                        android:text="Butt / Fillet"
                         android:textColor="@color/black" />
 
-                    <TextView
+                    <EditText
                         android:padding="3dip"
-                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:padding="3dip"
                         android:textColor="@color/black" />
                 </TableRow>
 
-                <TableRow>
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="3"
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text="Groove Detail"
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text="Square / Single V / Double V"
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text=""
-                        android:textColor="@color/black" />
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="4"
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text="Groove Angle"
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text="As Per Drawing"
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text=""
-                        android:textColor="@color/black" />
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="5"
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text="Root Gap"
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text="As Per Drawing"
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text=""
-                        android:textColor="@color/black" />
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="6"
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text="Root Face"
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text="As Per Drawing"
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text=""
-                        android:textColor="@color/black" />
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="7"
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text="Misalignment"
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text="As Per WI/QA/17"
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text=""
-                        android:textColor="@color/black" />
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="8"
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text="Long Segment Size (Bend)"
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text="As Per Drawing"
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text=""
-                        android:textColor="@color/black" />
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="9"
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text="Short Segment Size (Bend)"
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text="As Per Drawing"
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text=""
-                        android:textColor="@color/black" />
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="10"
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text="Involute Portion Opening Height (Inlet)"
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text="As Per Drawing"
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text=""
-                        android:textColor="@color/black" />
-                </TableRow>
 
             </TableLayout>
         </HorizontalScrollView>
-
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:text="Remarks:-"
-            android:textColor="@color/black"
-            android:textStyle="bold" />
-
-        <HorizontalScrollView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="10dp">
-
-            <TableLayout
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:stretchColumns="*">
-
-                <TableRow>
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text="Seam"
-                        android:textColor="@color/black"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text="Date"
-                        android:textColor="@color/black"
-                        android:textStyle="bold" />
-
-                    <TextView
-
-                        android:padding="3dip"
-                        android:text="Qty"
-                        android:textColor="@color/black"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text="Vendor/Production (Name + Sign)"
-                        android:textColor="@color/black"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text="Inspected by CUMI-QA (Name + Sign)"
-                        android:textColor="@color/black"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text="Status"
-                        android:textColor="@color/black"
-                        android:textStyle="bold" />
-
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text=""
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text=""
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text=""
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text=""
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text=""
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text="Ok"
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text="Not ok"
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text="Hold"
-                        android:textColor="@color/black" />
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="L-Seam"
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text=""
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text=""
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text=""
-                        android:textColor="@color/black" />
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="C-Seam"
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text=""
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text=""
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:text=""
-                        android:textColor="@color/black" />
-                </TableRow>
-
-            </TableLayout>
-        </HorizontalScrollView>
-
+        
 
         <Button
             android:id="@+id/login_btn"
