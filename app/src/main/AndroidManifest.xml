@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Cumi">
         <activity
+            android:name=".QAForm039"
+            android:exported="false" />
+        <activity
+            android:name=".QAForm020"
+            android:exported="false" />
+        <activity
             android:name=".StatusForm"
             android:exported="false" />
         <activity
