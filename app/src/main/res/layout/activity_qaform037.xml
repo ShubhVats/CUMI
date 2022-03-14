@@ -55,75 +55,6 @@
 
                 <TextView
                     android:padding="3dip"
-                    android:text="Customer Name:"
-                    android:textColor="@color/black" />
-
-                <EditText
-                    android:padding="3dip"
-                    android:text=""
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:padding="3dip"
-                    android:text="Vendor Name: "
-                    android:textColor="@color/black" />
-
-                <EditText
-                    android:padding="3dip"
-                    android:text=""
-                    android:textColor="@color/black" />
-            </TableRow>
-
-            <TableRow>
-
-                <TextView
-                    android:padding="3dip"
-                    android:text="Product:"
-                    android:textColor="@color/black" />
-
-                <EditText
-                    android:padding="3dip"
-                    android:text=""
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:padding="3dip"
-                    android:text="Item No.: "
-                    android:textColor="@color/black" />
-
-                <EditText
-                    android:padding="3dip"
-                    android:text=""
-                    android:textColor="@color/black" />
-            </TableRow>
-
-            <TableRow>
-
-                <TextView
-                    android:padding="3dip"
-                    android:text="Drg No:"
-                    android:textColor="@color/black" />
-
-                <EditText
-                    android:padding="3dip"
-                    android:text=""
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:padding="3dip"
-                    android:text="QA No.: "
-                    android:textColor="@color/black" />
-
-                <EditText
-                    android:padding="3dip"
-                    android:text=""
-                    android:textColor="@color/black" />
-            </TableRow>
-
-            <TableRow>
-
-                <TextView
-                    android:padding="3dip"
                     android:text="Item Code:"
                     android:textColor="@color/black" />
 
@@ -134,7 +65,7 @@
 
                 <TextView
                     android:padding="3dip"
-                    android:text="Date: "
+                    android:text="WO_No: "
                     android:textColor="@color/black" />
 
                 <EditText
@@ -143,29 +74,6 @@
                     android:textColor="@color/black" />
             </TableRow>
 
-
-            <TableRow>
-
-                <TextView
-                    android:padding="3dip"
-                    android:text="WO No.:"
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:padding="3dip"
-                    android:text=""
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:padding="3dip"
-                    android:text=""
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:padding="3dip"
-                    android:text=""
-                    android:textColor="@color/black" />
-            </TableRow>
 
         </TableLayout>
 

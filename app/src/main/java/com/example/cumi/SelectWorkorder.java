@@ -52,6 +52,10 @@ public class SelectWorkorder extends AppCompatActivity {
                 Intent i = new Intent(SelectWorkorder.this, QAForm037.class);
                 startActivity(i);
             }
+            if (processKey.equals("P05	Casing-Rolling")) {
+                Intent i = new Intent(SelectWorkorder.this, PG1Form055.class);
+                startActivity(i);
+            }
             if (processKey.equals("P06	Casing-L Seam welding")) {
                 Intent i = new Intent(SelectWorkorder.this, QAForm038.class);
                 startActivity(i);
@@ -68,8 +72,16 @@ public class SelectWorkorder extends AppCompatActivity {
                 Intent i = new Intent(SelectWorkorder.this, QAForm037.class);
                 startActivity(i);
             }
+            if (processKey.equals("P15	NDT")) {
+                Intent i = new Intent(SelectWorkorder.this, QAForm020.class);
+                startActivity(i);
+            }
             if (processKey.equals("P16	Leak Test")) {
                 Intent i = new Intent(SelectWorkorder.this, QAForm034.class);
+                startActivity(i);
+            }
+            if (processKey.equals("P20	Bonding material mixing")) {
+                Intent i = new Intent(SelectWorkorder.this, PG1Form055.class);
                 startActivity(i);
             }
             if (processKey.equals("P25	Paint mixing data")) {
@@ -79,8 +91,8 @@ public class SelectWorkorder extends AppCompatActivity {
             if (processKey.equals("P26	Painting")) {
                 //THIS PROCESS WILL HAVE TWO RESULTING SCREENS
                 //MAKE NEW SCREEN ADDING THESE SCREENS
-//                Intent i = new Intent(SelectWorkorder.this, QAForm050.class);
-//                startActivity(i);
+                Intent i = new Intent(SelectWorkorder.this, QAForm050.class);
+                startActivity(i);
             }
             if (processKey.equals("P27	type-1 Base coating")) {
                 Intent i = new Intent(SelectWorkorder.this, QAForm050.class);
@@ -103,6 +115,10 @@ public class SelectWorkorder extends AppCompatActivity {
                 startActivity(i);
             }
             if (processKey.equals("AP04	inspection")) {
+                Intent i = new Intent(SelectWorkorder.this, QAForm050.class);
+                startActivity(i);
+            }
+            if (processKey.equals("P29	Final paint coating")) {
                 Intent i = new Intent(SelectWorkorder.this, QAForm050.class);
                 startActivity(i);
             }

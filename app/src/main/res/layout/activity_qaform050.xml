@@ -48,7 +48,7 @@
         <TableLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_marginTop="10dp"
+            android:layout_margin="10dp"
             android:padding="10dp"
             android:stretchColumns="*">
 
@@ -56,7 +56,7 @@
 
                 <TextView
                     android:padding="3dip"
-                    android:text="Customer Name:"
+                    android:text="Item Code:"
                     android:textColor="@color/black" />
 
                 <TextView
@@ -66,30 +66,7 @@
 
                 <TextView
                     android:padding="3dip"
-                    android:text="Paint Specification: "
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:padding="3dip"
-                    android:text=""
-                    android:textColor="@color/black" />
-            </TableRow>
-
-            <TableRow>
-
-                <TextView
-                    android:padding="3dip"
-                    android:text="Item No.:"
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:padding="3dip"
-                    android:text=""
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:padding="3dip"
-                    android:text="Grit/Sand Blasting : "
+                    android:text="WO_No: "
                     android:textColor="@color/black" />
 
                 <TextView
@@ -98,154 +75,9 @@
                     android:textColor="@color/black" />
             </TableRow>
 
-            <TableRow>
-
-                <TextView
-                    android:padding="3dip"
-                    android:text="Date:"
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:padding="3dip"
-                    android:text=""
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:padding="3dip"
-                    android:text="Surface Preparation \nVendor: "
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:padding="3dip"
-                    android:text=""
-                    android:textColor="@color/black" />
-            </TableRow>
-
-            <TableRow>
-
-                <TextView
-                    android:padding="3dip"
-                    android:text="QA No/Item code:"
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:padding="3dip"
-                    android:text=""
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:padding="3dip"
-                    android:text="Surface Profile \n(Min. 40u):"
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:padding="3dip"
-                    android:text=""
-                    android:textColor="@color/black" />
-            </TableRow>
-
-
-            <TableRow>
-
-                <TextView
-                    android:padding="3dip"
-                    android:text="Vendor Name:"
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:padding="3dip"
-                    android:text=""
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:padding="3dip"
-                    android:text="Surface Preparation \nDate and Time:"
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:padding="3dip"
-                    android:text=""
-                    android:textColor="@color/black" />
-            </TableRow>
-
-            <TableRow>
-
-                <TextView
-                    android:padding="3dip"
-                    android:text="Serial No:"
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:padding="3dip"
-                    android:text=""
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:padding="3dip"
-                    android:text="Surface Preparation \nOk / Not Ok:"
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:padding="3dip"
-                    android:text=""
-                    android:textColor="@color/black" />
-            </TableRow>
-
-            <TableRow>
-
-                <TextView
-                    android:padding="3dip"
-                    android:text="Product Description:"
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:padding="3dip"
-                    android:text=""
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:padding="3dip"
-                    android:text="Inspected By:"
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:padding="3dip"
-                    android:text=""
-                    android:textColor="@color/black" />
-            </TableRow>
-
-            <TableRow>
-
-                <TextView
-                    android:padding="3dip"
-                    android:text="Drawing No.:"
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:padding="3dip"
-                    android:text=""
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:padding="3dip"
-                    android:text=""
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:padding="3dip"
-                    android:text=""
-                    android:textColor="@color/black" />
-            </TableRow>
 
         </TableLayout>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:text=""
-            android:textColor="@color/black"
-            android:textStyle="bold" />
 
         <HorizontalScrollView
             android:layout_width="wrap_content"
@@ -256,6 +88,427 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent">
 
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Paint Specification"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:autofillHints=""
+                        android:inputType="text"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Grit Blasting"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:autofillHints=""
+                        android:inputType="text"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Surface Prepration"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:autofillHints=""
+                        android:inputType="text"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Surface Profile(Min. 40u)"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:autofillHints=""
+                        android:inputType="text"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Surface Preparation Date And Time"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:autofillHints=""
+                        android:inputType="text"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Surface Preparation Ok/Not Ok"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:autofillHints=""
+                        android:inputType="text"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Inspected By"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:autofillHints=""
+                        android:inputType="text"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                </TableRow>
 
                 <TableRow>
 
