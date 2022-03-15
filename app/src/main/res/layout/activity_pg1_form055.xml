@@ -44,6 +44,41 @@
             android:textSize="26sp"
             android:textStyle="bold" />
 
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:stretchColumns="*">
+
+            <TableRow>
+
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="Item Code:"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/PGForm055_ItemCode"
+                    android:padding="3dip"
+                    android:text=""
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="WO No: "
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:padding="3dip"
+                    android:text=""
+                    android:textColor="@color/black" />
+            </TableRow>
+
+
+        </TableLayout>
+
 
         <HorizontalScrollView
             android:layout_width="wrap_content"
@@ -189,7 +224,7 @@
                         android:padding="3dip"
                         android:textColor="@color/black" />
 
-                    <EditText
+                    <TextView
                         android:padding="3dip"
                         android:textColor="@color/black" />
 
@@ -197,7 +232,7 @@
                         android:padding="3dip"
                         android:textColor="@color/black" />
 
-                    <EditText
+                    <TextView
                         android:padding="3dip"
                         android:textColor="@color/black" />
 
@@ -230,7 +265,7 @@
                         android:padding="3dip"
                         android:textColor="@color/black" />
 
-                    <EditText
+                    <TextView
                         android:padding="3dip"
                         android:textColor="@color/black" />
 
@@ -238,7 +273,7 @@
                         android:padding="3dip"
                         android:textColor="@color/black" />
 
-                    <EditText
+                    <TextView
                         android:padding="3dip"
                         android:textColor="@color/black" />
 
@@ -271,7 +306,7 @@
                         android:padding="3dip"
                         android:textColor="@color/black" />
 
-                    <EditText
+                    <TextView
                         android:padding="3dip"
                         android:textColor="@color/black" />
 
@@ -279,7 +314,7 @@
                         android:padding="3dip"
                         android:textColor="@color/black" />
 
-                    <EditText
+                    <TextView
                         android:padding="3dip"
                         android:textColor="@color/black" />
 
@@ -312,7 +347,7 @@
                         android:padding="3dip"
                         android:textColor="@color/black" />
 
-                    <EditText
+                    <TextView
                         android:padding="3dip"
                         android:textColor="@color/black" />
 
@@ -320,7 +355,7 @@
                         android:padding="3dip"
                         android:textColor="@color/black" />
 
-                    <EditText
+                    <TextView
                         android:padding="3dip"
                         android:textColor="@color/black" />
 
@@ -353,7 +388,7 @@
                         android:padding="3dip"
                         android:textColor="@color/black" />
 
-                    <EditText
+                    <TextView
                         android:padding="3dip"
                         android:textColor="@color/black" />
 
@@ -361,7 +396,7 @@
                         android:padding="3dip"
                         android:textColor="@color/black" />
 
-                    <EditText
+                    <TextView
                         android:padding="3dip"
                         android:textColor="@color/black" />
 

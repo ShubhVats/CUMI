@@ -20,6 +20,9 @@ public class barcodeScanning extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_barcode_scanning);
 
+        //Get Intent(Barcode Value)
+        String processKey = getIntent().getStringExtra("processKey");
+
         CodeScannerView scannerView = findViewById(R.id.scanner_view);
         mCodeScanner = new CodeScanner(this, scannerView);
         mCodeScanner.setDecodeCallback(new DecodeCallback() {
@@ -31,6 +34,7 @@ public class barcodeScanning extends AppCompatActivity {
                         Toast.makeText(barcodeScanning.this, result.getText(), Toast.LENGTH_SHORT).show();
                         Intent i = new Intent(barcodeScanning.this,SelectWorkorder.class);
                         i.putExtra("BarcodeValue", String.valueOf(result));
+                        i.putExtra("processKey",processKey);
                         startActivity(i);
                     }
                 });
