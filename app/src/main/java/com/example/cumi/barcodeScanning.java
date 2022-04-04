@@ -15,6 +15,7 @@ import com.google.zxing.Result;
 
 public class barcodeScanning extends AppCompatActivity {
     private CodeScanner mCodeScanner;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,9 +33,9 @@ public class barcodeScanning extends AppCompatActivity {
                     @Override
                     public void run() {
                         Toast.makeText(barcodeScanning.this, result.getText(), Toast.LENGTH_SHORT).show();
-                        Intent i = new Intent(barcodeScanning.this,SelectWorkorder.class);
+                        Intent i = new Intent(barcodeScanning.this, SelectWorkorder.class);
                         i.putExtra("BarcodeValue", String.valueOf(result));
-                        i.putExtra("processKey",processKey);
+                        i.putExtra("processKey", processKey);
                         startActivity(i);
                     }
                 });

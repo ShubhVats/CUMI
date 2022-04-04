@@ -5,8 +5,6 @@
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -16,53 +14,77 @@
         android:theme="@style/Theme.Cumi">
         <activity
             android:name=".QAForm039"
-            android:exported="false" />
+            android:exported="true">
+
+
+        </activity>
         <activity
             android:name=".QAForm020"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".StatusForm"
-            android:exported="false" />
+            android:exported="true">
+
+
+        </activity>
         <activity
             android:name=".QAForm034"
-            android:exported="false" />
+            android:exported="true">
+
+        </activity>
         <activity
             android:name=".UnloadingRawMaterial"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".PG1Form055"
-            android:exported="false" />
+            android:exported="true">
+
+
+        </activity>
         <activity
             android:name=".QAForm038"
-            android:exported="true" />
+            android:exported="true">
+
+        </activity>
         <activity
             android:name=".QAForm050"
-            android:exported="false" />
+            android:exported="true">
+
+        </activity>
         <activity
             android:name=".QAForm037"
-            android:exported="true" />
+            android:exported="true">
+
+        </activity>
         <activity
             android:name=".barcodeScanning"
-            android:exported="false"
+            android:exported="true"
             android:noHistory="true" />
         <activity
             android:name=".QualityDataEntry"
-            android:exported="true" />
+            android:exported="true">
+
+
+        </activity>
         <activity
             android:name=".SelectWorkorder"
-            android:exported="false" />
+            android:exported="true">
+
+        </activity>
         <activity
             android:name=".SelectProcess"
-            android:exported="true" />
+            android:exported="true">
+
+        </activity>
         <activity
             android:name=".Login"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".Dashboard2"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".Dashboard1"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true"

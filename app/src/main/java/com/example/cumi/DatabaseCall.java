@@ -1,6 +1,7 @@
 package com.example.cumi;
 
-import android.util.Log;
+import
+        android.util.Log;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -95,7 +96,7 @@ public class DatabaseCall {
         } catch (Exception ex) {
             Log.e("There", ex.toString());
         }
-        Log.e("Here",Data2);
+        Log.e("Here", Data2);
         return Data2;
     }
 
@@ -119,5 +120,23 @@ public class DatabaseCall {
             Log.e("Here", ex.toString());
         }
         return Integer.valueOf(DataCount);
+    }
+
+    public Integer Submit(String Query) {
+
+        try {
+            ConnectionHelper connectionHelper = new ConnectionHelper();
+            connect = connectionHelper.connectionclass();
+            if (connect != null) {
+                String sqlinsert = Query;
+                Statement st = connect.createStatement();
+                ResultSet rs = st.executeQuery(sqlinsert);
+            } else {
+                ConnectionResult = "Check Connection";
+            }
+        } catch (Exception ex) {
+            Log.e("Here", ex.toString());
+        }
+        return 0;
     }
 }

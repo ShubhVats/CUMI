@@ -71,6 +71,7 @@
                     android:textColor="@color/black" />
 
                 <TextView
+                    android:id="@+id/PGForm055_WO_No"
                     android:padding="3dip"
                     android:text=""
                     android:textColor="@color/black" />
@@ -128,17 +129,23 @@
                         android:textColor="@color/black"
                         android:textStyle="bold" />
 
-
                     <TextView
                         android:layout_width="0dp"
                         android:layout_weight="2"
                         android:gravity="center"
                         android:padding="3dip"
-
                         android:text="OD"
                         android:textColor="@color/black"
                         android:textStyle="bold" />
 
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Ovality"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="0dp"
@@ -157,8 +164,6 @@
                         android:text="Remarks"
                         android:textColor="@color/black"
                         android:textStyle="bold" />
-
-
                 </TableRow>
 
                 <TableRow>
@@ -206,45 +211,81 @@
                         android:text="Act."
                         android:textColor="@color/black"
                         android:textStyle="bold" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
                 </TableRow>
 
                 <TableRow>
 
                     <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
                         android:text="s1"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@+id/PGForm055_Length_S1"
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@+id/PGForm055_Width_S1"
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/PGForm055_ID_Requirement_1"
                         android:gravity="center"
                         android:padding="3dip"
                         android:textColor="@color/black" />
 
                     <EditText
-                        android:padding="3dip"
-                        android:textColor="@color/black" />
-
-                    <EditText
-                        android:padding="3dip"
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:textColor="@color/black" />
-
-                    <EditText
+                        android:id="@+id/PGForm055_ID_Actual_1"
                         android:padding="3dip"
                         android:textColor="@color/black" />
 
                     <TextView
+                        android:id="@+id/PGForm055_OD_Requirement_1"
+                        android:gravity="center"
                         android:padding="3dip"
                         android:textColor="@color/black" />
 
                     <EditText
+                        android:id="@+id/PGForm055_OD_Actual_1"
                         android:padding="3dip"
                         android:textColor="@color/black" />
 
                     <EditText
+                        android:id="@+id/PGForm055_Ovality_1"
                         android:padding="3dip"
                         android:textColor="@color/black" />
 
                     <EditText
+                        android:id="@+id/PGForm055_Weight_1"
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@+id/PGForm055_Remarks_1"
                         android:padding="3dip"
                         android:textColor="@color/black" />
                 </TableRow>
@@ -252,40 +293,55 @@
                 <TableRow>
 
                     <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
                         android:text="s2"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@+id/PGForm055_Length_S2"
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@+id/PGForm055_Width_S2"
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/PGForm055_ID_Requirement_2"
                         android:gravity="center"
                         android:padding="3dip"
                         android:textColor="@color/black" />
 
                     <EditText
-                        android:padding="3dip"
-                        android:textColor="@color/black" />
-
-                    <EditText
-                        android:padding="3dip"
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:padding="3dip"
-                        android:textColor="@color/black" />
-
-                    <EditText
+                        android:id="@+id/PGForm055_ID_Actual_2"
                         android:padding="3dip"
                         android:textColor="@color/black" />
 
                     <TextView
+                        android:id="@+id/PGForm055_OD_Requirement_2"
+                        android:gravity="center"
                         android:padding="3dip"
                         android:textColor="@color/black" />
 
                     <EditText
+                        android:id="@+id/PGForm055_OD_Actual_2"
                         android:padding="3dip"
                         android:textColor="@color/black" />
 
                     <EditText
+                        android:id="@+id/PGForm055_Ovality_2"
                         android:padding="3dip"
                         android:textColor="@color/black" />
 
                     <EditText
+                        android:id="@+id/PGForm055_Weight_2"
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@+id/PGForm055_Remarks_2"
                         android:padding="3dip"
                         android:textColor="@color/black" />
                 </TableRow>
@@ -293,9 +349,9 @@
                 <TableRow>
 
                     <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
                         android:text="s3"
-                        android:gravity="center"
-                        android:padding="3dip"
                         android:textColor="@color/black" />
 
                     <EditText
@@ -321,6 +377,11 @@
                     <EditText
                         android:padding="3dip"
                         android:textColor="@color/black" />
+
+                    <EditText
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
 
                     <EditText
                         android:padding="3dip"
@@ -334,9 +395,9 @@
                 <TableRow>
 
                     <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
                         android:text="s4"
-                        android:gravity="center"
-                        android:padding="3dip"
                         android:textColor="@color/black" />
 
                     <EditText
@@ -362,6 +423,11 @@
                     <EditText
                         android:padding="3dip"
                         android:textColor="@color/black" />
+
+                    <EditText
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
 
                     <EditText
                         android:padding="3dip"
@@ -375,9 +441,9 @@
                 <TableRow>
 
                     <TextView
-                        android:text="s5"
                         android:gravity="center"
                         android:padding="3dip"
+                        android:text="s5"
                         android:textColor="@color/black" />
 
                     <EditText
@@ -403,6 +469,11 @@
                     <EditText
                         android:padding="3dip"
                         android:textColor="@color/black" />
+
+                    <EditText
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
 
                     <EditText
                         android:padding="3dip"
@@ -419,7 +490,7 @@
 
 
         <Button
-            android:id="@+id/login_btn"
+            android:id="@+id/PGForm055_SubmitBtn"
             android:layout_width="130dp"
             android:layout_height="55dp"
             android:layout_gravity="end"

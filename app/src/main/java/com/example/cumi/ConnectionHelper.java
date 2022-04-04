@@ -15,7 +15,7 @@ public class ConnectionHelper {
 
     public Connection connectionclass() {
 //        Local Connection
-        ip = "192.168.88.104";
+        ip = "192.168.88.103";
         database = "CUMI";
         port = "1433";
         uname = "Shubh";
