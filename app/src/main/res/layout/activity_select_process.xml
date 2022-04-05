@@ -22,7 +22,7 @@
             android:textSize="34sp"
             android:textStyle="bold" />
 
-        <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+        <Spinner
             android:id="@+id/processID_spinner"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

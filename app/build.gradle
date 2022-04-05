@@ -7,7 +7,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.cumi"
-        minSdk 23
+        minSdk 24
         targetSdk 31
         versionCode 1
         versionName "1.0"
@@ -25,12 +25,6 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-    dataBinding {
-        enabled = true
-    }
-    buildFeatures {
-        viewBinding true
-    }
 }
 
 dependencies {
@@ -38,13 +32,12 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.4.1'
     implementation 'com.google.android.material:material:1.5.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
-    implementation 'androidx.navigation:navigation-fragment:2.3.5'
-    implementation 'androidx.navigation:navigation-ui:2.3.5'
-    implementation files('D:\\Shubh\\Cumi\\AndroidAppOld\\app\\libs\\jtds-1.2.7.jar')
-    testImplementation 'junit:junit:4.+'
+    implementation files('D:\\Shubh\\Cumi\\AndroidApp\\app\\libs\\jtds-1.2.7.jar')
+    testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
-    implementation 'com.toptoche.searchablespinner:searchablespinnerlibrary:1.3.1'
+    implementation 'androidx.navigation:navigation-fragment:2.3.5'
+    implementation 'androidx.navigation:navigation-ui:2.3.5'
     api 'tk.zielony:carbon:0.16.0.1'
-    implementation 'com.budiyev.android:code-scanner:2.1.0'
+    implementation 'com.github.yuriy-budiyev:code-scanner:2.1.2'
 }

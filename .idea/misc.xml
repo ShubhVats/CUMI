@@ -3,37 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/drawable/textbackground.xml" value="0.24114583333333334" />
-        <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/drawable/textholder.xml" value="0.1265625" />
-        <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_barcode_scanning.xml" value="0.1" />
-        <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_dashboard1.xml" value="0.1" />
-        <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_dashboard2.xml" value="0.11041666666666666" />
-        <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_login.xml" value="0.33" />
-        <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_qaform037.xml" value="0.17777777777777778" />
-        <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_qaform038.xml" value="0.1" />
-        <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_qaform050.xml" value="0.1125" />
-        <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_quality_data_entry.xml" value="0.1" />
-        <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_select_process.xml" value="0.1" />
-        <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_select_workorder.xml" value="0.2074074074074074" />
-        <entry key="..\:/Shubh/Cumi/AndroidAppOld/app/src/main/res/drawable/textbackground.xml" value="0.1" />
-        <entry key="..\:/Shubh/Cumi/AndroidAppOld/app/src/main/res/drawable/textholder.xml" value="0.1" />
-        <entry key="..\:/Shubh/Cumi/AndroidAppOld/app/src/main/res/layout/activity_barcode_scanning.xml" value="0.1" />
-        <entry key="..\:/Shubh/Cumi/AndroidAppOld/app/src/main/res/layout/activity_dashboard1.xml" value="0.1" />
-        <entry key="..\:/Shubh/Cumi/AndroidAppOld/app/src/main/res/layout/activity_dashboard2.xml" value="0.1" />
-        <entry key="..\:/Shubh/Cumi/AndroidAppOld/app/src/main/res/layout/activity_login.xml" value="0.1" />
-        <entry key="..\:/Shubh/Cumi/AndroidAppOld/app/src/main/res/layout/activity_main.xml" value="0.1125" />
-        <entry key="..\:/Shubh/Cumi/AndroidAppOld/app/src/main/res/layout/activity_pg1_form055.xml" value="0.21" />
-        <entry key="..\:/Shubh/Cumi/AndroidAppOld/app/src/main/res/layout/activity_qaform020.xml" value="0.17" />
-        <entry key="..\:/Shubh/Cumi/AndroidAppOld/app/src/main/res/layout/activity_qaform034.xml" value="0.25" />
-        <entry key="..\:/Shubh/Cumi/AndroidAppOld/app/src/main/res/layout/activity_qaform037.xml" value="0.21" />
-        <entry key="..\:/Shubh/Cumi/AndroidAppOld/app/src/main/res/layout/activity_qaform038.xml" value="0.29930555555555555" />
-        <entry key="..\:/Shubh/Cumi/AndroidAppOld/app/src/main/res/layout/activity_qaform039.xml" value="0.21" />
-        <entry key="..\:/Shubh/Cumi/AndroidAppOld/app/src/main/res/layout/activity_qaform050.xml" value="0.25" />
-        <entry key="..\:/Shubh/Cumi/AndroidAppOld/app/src/main/res/layout/activity_select_process.xml" value="0.1125" />
-        <entry key="..\:/Shubh/Cumi/AndroidAppOld/app/src/main/res/layout/activity_select_workorder.xml" value="0.17" />
-        <entry key="..\:/Shubh/Cumi/AndroidAppOld/app/src/main/res/layout/activity_status_form.xml" value="0.25" />
-        <entry key="..\:/Shubh/Cumi/AndroidAppOld/app/src/main/res/layout/activity_unloading_raw_material.xml" value="0.1" />
+        <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_barcode_scanning.xml" value="0.17074275362318841" />
+        <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_dashboard1.xml" value="0.17074275362318841" />
+        <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_dashboard2.xml" value="0.17074275362318841" />
+        <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_login.xml" value="0.16576086956521738" />
+        <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
+        <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_pg1_form055.xml" value="0.17074275362318841" />
+        <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_qaform020.xml" value="0.16576086956521738" />
+        <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_qaform034.xml" value="0.15307971014492755" />
+        <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_select_workorder.xml" value="0.1" />
       </map>
     </option>
   </component>
