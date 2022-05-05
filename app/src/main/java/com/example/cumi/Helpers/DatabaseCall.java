@@ -1,4 +1,4 @@
-package com.example.cumi;
+package com.example.cumi.Helpers;
 
 import
         android.util.Log;
@@ -122,7 +122,7 @@ public class DatabaseCall {
         return Integer.valueOf(DataCount);
     }
 
-    public Integer Submit(String Query) {
+    public Boolean Submit(String Query) {
 
         try {
             ConnectionHelper connectionHelper = new ConnectionHelper();
@@ -130,13 +130,14 @@ public class DatabaseCall {
             if (connect != null) {
                 String sqlinsert = Query;
                 Statement st = connect.createStatement();
-                ResultSet rs = st.executeQuery(sqlinsert);
+                boolean rs = st.execute(sqlinsert);
             } else {
                 ConnectionResult = "Check Connection";
             }
         } catch (Exception ex) {
             Log.e("Here", ex.toString());
+            return false;
         }
-        return 0;
+        return true;
     }
 }

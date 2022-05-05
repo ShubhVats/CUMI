@@ -1,9 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
     tools:context=".InwardInspectionInternal">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/III_MaterialInspection_Btn"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/comfortaa"
+        android:gravity="center"
+        android:text="MATERIAL INSPECTION"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:backgroundTint="#71AC2C"
+        app:cornerRadius="20dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/III_BarcodeGeneration_Btn"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/comfortaa"
+        android:gravity="center"
+        android:text="BARCODE GENERATION"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:backgroundTint="#71AC2C"
+        app:cornerRadius="20dp" />
+
+
+</LinearLayout>

@@ -10,7 +10,7 @@
     tools:context=".Dashboard1">
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/material_store_btn"
+        android:id="@+id/URM_MaterialReceipt_Btn"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_margin="10dp"
@@ -24,7 +24,7 @@
 
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/production_btn"
+        android:id="@+id/URM_ReleaseForInspection_Btn"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_margin="10dp"
@@ -37,7 +37,7 @@
         app:cornerRadius="20dp" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/quality_btn"
+        android:id="@+id/URM_MaterialReturn_Btn"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_margin="10dp"

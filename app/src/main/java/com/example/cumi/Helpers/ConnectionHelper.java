@@ -1,4 +1,4 @@
-package com.example.cumi;
+package com.example.cumi.Helpers;
 
 import android.annotation.SuppressLint;
 import android.os.StrictMode;
@@ -15,7 +15,7 @@ public class ConnectionHelper {
 
     public Connection connectionclass() {
 //        Local Connection
-        ip = " 192.168.1.100";
+        ip = "192.168.29.3";
         database = "CUMI";
         port = "1433";
         uname = "Shubh";

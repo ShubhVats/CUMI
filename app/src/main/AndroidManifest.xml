@@ -5,6 +5,9 @@
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -13,69 +16,72 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CUMI">
         <activity
+            android:name=".ProfileCutting"
+            android:exported="false" />
+        <activity
+            android:name=".III_BarcodeGeneration_1"
+            android:exported="false" />
+        <activity
+            android:name=".SelectTestRequestNo"
+            android:exported="false" />
+        <activity
+            android:name=".III_MaterialInspection_1"
+            android:exported="true"></activity>
+        <activity
+            android:name=".InwardInspectionInternal"
+            android:exported="false" />
+        <activity
+            android:name=".URM_MaterialReturn_1"
+            android:exported="false" />
+        <activity
+            android:name=".URM_ReleaseforInspection_1"
+            android:exported="false" />
+        <activity
+            android:name=".SelectMaterialID"
+            android:exported="false" />
+        <activity
+            android:name=".URM_MaterialReceipt_1"
+            android:exported="true" />
+        <activity
             android:name=".QAForm039"
-            android:exported="true">
-
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".QAForm020"
             android:exported="true" />
         <activity
             android:name=".StatusForm"
-            android:exported="true">
-
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".QAForm034"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".UnloadingRawMaterial"
             android:exported="true" />
         <activity
             android:name=".PG1Form055"
-            android:exported="true">
-
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".QAForm038"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".QAForm050"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".QAForm037"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".barcodeScanning"
             android:exported="true"
             android:noHistory="true" />
         <activity
             android:name=".QualityDataEntry"
-            android:exported="true">
-
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".SelectWorkorder"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".SelectProcess"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".Login"
             android:exported="true" />
@@ -99,6 +105,16 @@
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="net.smallacademy.android.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
     </application>
 
 </manifest>

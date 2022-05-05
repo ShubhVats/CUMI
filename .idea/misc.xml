@@ -6,12 +6,23 @@
         <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_barcode_scanning.xml" value="0.17074275362318841" />
         <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_dashboard1.xml" value="0.17074275362318841" />
         <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_dashboard2.xml" value="0.17074275362318841" />
+        <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_iii_barcode_generation1.xml" value="0.1841880341880342" />
+        <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_iii_material_inspection1.xml" value="0.2" />
+        <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_inward_inspection_internal.xml" value="0.22447916666666667" />
         <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_login.xml" value="0.16576086956521738" />
         <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
         <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_pg1_form055.xml" value="0.17074275362318841" />
+        <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_profile_cutting.xml" value="0.15" />
         <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_qaform020.xml" value="0.16576086956521738" />
         <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_qaform034.xml" value="0.15307971014492755" />
+        <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_select_material_id.xml" value="0.22447916666666667" />
+        <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_select_process.xml" value="0.22447916666666667" />
+        <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_select_test_request_no.xml" value="0.22447916666666667" />
         <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_select_workorder.xml" value="0.1" />
+        <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_unloading_raw_material.xml" value="0.22447916666666667" />
+        <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_urm_material_receipt1.xml" value="0.2" />
+        <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_urm_material_return1.xml" value="0.22447916666666667" />
+        <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_urm_releasefor_inspection1.xml" value="0.22447916666666667" />
       </map>
     </option>
   </component>

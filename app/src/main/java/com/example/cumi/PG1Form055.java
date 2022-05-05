@@ -1,23 +1,23 @@
 package com.example.cumi;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.cumi.Helpers.DatabaseCall;
+
 import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.Statement;
 
 public class PG1Form055 extends AppCompatActivity {
 
     //Declare Variables
     Button SubmitBtn;
     TextView ItemCode_Holder, WO_No_Holder, ID_Requirement_Holder_1, ID_Requirement_Holder_2, OD_Requirement_Holder_1, OD_Requirement_Holder_2, Length_Holder_1, Length_Holder_2, Width_Holder_1, Width_Holder_2, Weight_Holder_1, Weight_Holder_2, Remarks_1, Remarks_2, ID_Actual_1, ID_Actual_2, OD_Actual_1, OD_Actual_2, Ovality_1, Ovalit_2;
-
+    int i = 0;
     Connection connect;
     String ConnectionResult = "";
 
@@ -67,7 +67,16 @@ public class PG1Form055 extends AppCompatActivity {
         OD_Requirement_Holder_2.setText(OD_Requirement_Value_2);
 
         //SUBMIT TO DATABASE
-        SubmitBtn.setOnClickListener(view ->
-                DatabaseCall.getData().Submit("Insert into [CUMI].[dbo].[Production_Form_QA_037] values  ('RowIdTODO','TimeStampTODO','"+WO_No_Holder.getText().toString()+"','" + ItemCode_Holder.getText().toString() + "','" + Length_Holder_1.getText().toString() + "','" + Width_Holder_1.getText().toString() + "','"+ID_Requirement_Holder_1.getText().toString()+"','"+ID_Actual_1.getText().toString()+"','"+OD_Requirement_Holder_1.getText().toString()+"','"+OD_Actual_1.getText().toString()+"','"+Ovality_1.getText().toString()+"','"+Weight_Holder_1.getText().toString()+"','StatusTODO','StartTimeTODO','EndTimeTODO','"+Remarks_1.getText().toString()+"')"));
+        SubmitBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (i > 0) {
+                    DatabaseCall.getData().Submit("Insert into [CUMI].[dbo].[Production_Form_QA_037] values  ('RowIdTODO','TimeStampTODO','" + WO_No_Holder.getText().toString() + "','" + ItemCode_Holder.getText().toString() + "','" + Length_Holder_1.getText().toString() + "','" + Width_Holder_1.getText().toString() + "','" + ID_Requirement_Holder_1.getText().toString() + "','" + ID_Actual_1.getText().toString() + "','" + OD_Requirement_Holder_1.getText().toString() + "','" + OD_Actual_1.getText().toString() + "','" + Ovality_1.getText().toString() + "','" + Weight_Holder_1.getText().toString() + "','StatusTODO','StartTimeTODO','EndTimeTODO','" + Remarks_1.getText().toString() + "')");
+                } else {
+                    i++;
+                    Toast.makeText(PG1Form055.this, "Sure to submit?", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
     }
 }
